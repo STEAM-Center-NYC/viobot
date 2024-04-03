@@ -11,17 +11,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="faqs.html">FAQs</a></li>
-            <li><a href="team.html">Our Team</a></li>
-            <li><a href="sign-in-page.html">Sign In</a></li>
-        </ul>
-        <input type="text">
-        <button type="button" class="btn btn-primary">Search</button>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand" href="products.html">Products</a>
+          <a class="navbar-brand" href="contact.html">Contact</a>
+          <a class="navbar-brand" href="faqs.html">FAQs</a>
+          <a class="navbar-brand" href="team.html">Our Team</a>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 </body>
 </html>
