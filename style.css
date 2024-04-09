@@ -1,0 +1,19 @@
+/* Image styling */
+#viobot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#logo {
+    width: 10%;
+}
+
+body {
+    margin-left: 15px;
+}
+
+.demo:hover {
+    text-decoration: none;
+}
