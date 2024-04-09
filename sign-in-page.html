@@ -16,23 +16,6 @@
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
-
-</head>
-  <body>
-    <div class="container-lg d-flex justify-content-center align-items-center vh-100 bg-primary">
-        <div class="border border-light p-5 animate__animated animate__fadeInUp">
-            <h1 class="text-center text-light">Sign in</h1>
-            <br>
-            <div class="mb-4 text-light">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control border-primary-subtle" id="exampleFormControlInput1" placeholder="johndoe123@example.com" required>
-            </div>
-            <div class="mb-4 text-light">
-                <label for="exampleFormControlInput1" class="form-label">Password</label>
-                <input type="password" class="form-control border-primary-subtle" id="exampleFormControlInput2" placeholder="Password@123">
-            </div>
-            <div class="form-check mb-4 text-light">
-              
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script>
         var wow = new WOW({
@@ -56,8 +39,14 @@
                 <input type="password" class="form-control border-primary-subtle" id="exampleFormControlInput2" placeholder="Password@123">
             </div>
             <div class="form-check mb-4 text-light wow animate__animated animate__backInDown" data-wow-delay="1.5s">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Remember me
+                </label>
+            </div>
+            <button type="button" class="btn btn-secondary w-100 mb-3 wow animate__animated animate__zoomIn" data-wow-delay="2s">Sign In</button>
+            <hr>
             <p class="text-center text-light wow animate__animated animate__flipInX" data-wow-delay="0.2s">Don't Have An Account?</p>
-
             <div class="d-flex justify-content-between">
                 <a href="sign-up-page.html" class="btn btn-secondary mr-4 wow animate__animated animate__backInUp" data-wow-delay="2.5s">Create an account</a>
                 <a href="forgot-password-page.html"  class="btn btn-secondary ml-4 wow animate__animated animate__backInDown" data-wow-delay="3s">Forgot Password?</a>
