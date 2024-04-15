@@ -18,16 +18,31 @@
 </head>
 
 <body class="bg-secondary text-primary">
-    <nav class="nav justify-content-center sticky-top;">
-        <ul class="nav justify-content-center">
-            <img src="images/logo.png" alt="Viobot Logo" id="logo">
-            <li class="p-2"><a href="index.html">Home</a></li>
-            <li class="p-2"><a href="sign-in-page.html">Sign In</a></li>
-            <li class="p-2"><a href="sign-up-page.html">Sign Up</a></li>
-            <li class="p-2"><a href="forgot-password-page.html">Forgot Password?</a></li>
-        </ul>
-        <input type="text" class="p-2">
-        <button type="button" class="btn btn-primary p-2">Search</button>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            VioBots
+          </a>  
+          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand" href="products.html">Products</a>
+          <a class="navbar-brand" href="contact.html">Contact</a>
+          <a class="navbar-brand" href="faq-page.html">FAQs</a>
+          <a class="navbar-brand" href="team.html">Our Team</a>
+          
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+             <a class="navbar-brand" href="sign-in-page.html">Sign In</a>
+             <a class="navbar-brand" href="sign-up-page.html">Sign Up</a>
+            </form>
+          </div>
+        </div>
     </nav>
     <br>
     <div>
@@ -42,14 +57,16 @@
         <br>
         <article>
             <h4>Roblox</h4>
-            <p>demo by:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bMDl2i27DA4?si=VgvQu8peDR1bcaPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>(it's the leading VioBot idea we promise)</p>
+            <p>Demo by: Kawhi Leonard</p>
         </article>
     </div>
     <br>
     <div>
         <h3 class="animate__animated animate__pulse">Get it now, never ask for your money back</h3>
         <p>Enjoyed the enhanced gameplay with Viobot? Buy it now and play your favorite games while sitting back and letting Viobot do all the hard work for you. You do just the basics and let Viobot take care of the pro gamer work for you.</p>
-        <button type="button" class="btn btn-primary animate__animated animate__rollIn">Purchase Viobot Now</button>
+        <button type="button" class="btn btn-primary animate__animated animate__rollIn"><a class="purchase" href="checkout-page.html">Purchase Viobot Now</a></button>
     </div>
     <br>
 
