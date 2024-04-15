@@ -1,0 +1,24 @@
+/* Image styling */
+#viobot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+#logo {
+    width: 10%;
+}
+
+body {
+    margin-left: 15px;
+}
+
+.demo:hover {
+    text-decoration: none;
+}
+
+testimonials {
+    display: grid;
+    grid-template-rows: auto;
+}

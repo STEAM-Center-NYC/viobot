@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="bootstrap.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
@@ -15,17 +13,32 @@
     <title>Viobot</title>
 </head>
 <body class="bg-secondary text-primary">
-    <nav class="nav justify-content-center sticky-top;">
-        <ul class="nav justify-content-center">
-            <img src="images/logo.png" alt="Viobot Logo">
-            <li class="p-2"><a href="index.html">Home</a></li>
-            <li class="p-2"><a href="sign-in-page.html">Sign In</a></li>
-            <li class="p-2"><a href="sign-up-page.html">Sign Up</a></li>
-            <li class="p-2"><a href="forgot-password-page.html">Forgot Password?</a></li>
-        </ul>
-        <input type="text" class="p-2">
-        <button type="button" class="btn btn-primary p-2">Search</button>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            VioBots
+          </a>  
+          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand" href="products.html">Products</a>
+          <a class="navbar-brand" href="contact.html">Contact</a>
+          <a class="navbar-brand" href="faqs.html">FAQs</a>
+          <a class="navbar-brand" href="team.html">Our Team</a>
+          
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+             <a class="navbar-brand" href="sign-in-page.html">Sign In</a>
+             <a class="navbar-brand" href="sign-up-page.html">Sign Up</a>
+            </form>
+          </div>
+        </div>
+      </nav>
     <h1 class="animate__animated animate__lightSpeedInLeft">If you can't beat them, join them</h1>
     <br>
     <h3 class="animate__animated animate__flipInX">Stop being a victim of cheats. Join the dark side and victimize others while enjoying your life in gameplay.</h3>
@@ -51,56 +64,36 @@
     </div>
     <br>
     <div>
-        <h2 class="animate__animated animate__pulse">Try it now, never ask for your money back</h2>
+        <h2 class="animate__animated animate__pulse">Get it now, never ask for your money back</h2>
         <p>The most "OP" cheating software, right in the palm of your hand</p>
         <button type="button" class="btn btn-primary animate__animated animate__rollIn">Purchase Viobot Now</button>
-        <button type="button" class="btn btn-secondary bg-secondary animate__animated animate__rollIn">See Demonstrations</button>
+        <button type="button" class="btn btn-secondary bg-secondary animate__animated animate__rollIn"><a class="demo" href="gameplay.html">See Demonstrations</a></button>
     </div>
     <br>
     <section class="border border-primary p-3 m-2">
     <h2 class="animate__animated animate__slideInLeft">Testimonials</h2>
-    <div class="container-lg text-center justify-content-center align-items-center row">
-        <div class="g-col-4 g-col-md-4 bg-info border border-primary p-4 m-3 animate__animated animate__rotateInDownLeft col">
+    <div class="text-center justify-content-center align-items-center row testimonals">
+        <div class="g-col-4 g-col-md-4 bg-info border border-primary p-4 m-3 animate__animated animate__rotateInDownLeft col testimonals">
             <p>"Very powerful software I can use to exploit in any game, it is the best in existence!"</p>
             <p class="text-muted"> - Emama Akhter</p>
         </div>
-        <div class="g-col-6 g-col-md-4 bg-info border border-primary p-4 m-3 animate__animated animate__rotateInDownRight col">
+        <div class="g-col-6 g-col-md-4 bg-info border border-primary p-4 m-3 animate__animated animate__rotateInDownRight col testimonals">
             <p>"Very sophisticated code and can last forever!"</p>
             <p class="text-muted">- Justin Forlenza</p>
         </div>  
-        <div class="g-col-6 g-col-md-4 bg-info border border-primary p-4 m-3 animate__animated animate__rotateInDownLeft col">
+        <div class="g-col-6 g-col-md-4 bg-info border border-primary p-4 m-3 animate__animated animate__rotateInDownLeft col testimonals">
             <p>"I can easily use it to bypass Byfron and in-game anticheats and assert dominace in Roblox!"</p>
             <p class="text-muted">- John Doe</p>
         </div>
-        <div class="g-col-6 g-col-md-4 bg-info border border-primary p-4 m-3 animate__animated animate__rotateInDownRight col">
-            <p>"It's too easy to win in Valorant now that I have the supreme Viobot!"</p>
-            <p class="text-muted">- Stewie Griffin</p>
-        </div>
-    </div>
-    <section>
-    <h2>Testimonials</h2>
-
-    <div class="grid text-center">
-        <div class="g-col-4 g-col-md-4 bg-info">
-            <p>"Very powerful software I can use to exploit in any game, it is the best in existence!"</p>
-            <p class="text-muted"> - Emama Akhter</p>
-        </div>
-        <div class="g-col-6 g-col-md-4 bg-info">
-            <p>"Very sophisticated code and can last forever!"</p>
-            <p class="text-muted">- Justin Forlenza</p>
-        </div>  
-        <div class="g-col-6 g-col-md-4 bg-info">
-            <p>"I can easily use it to bypass Byfron and in-game anticheats and assert dominace in Roblox!"</p>
-            <p class="text-muted">- John Doe</p>
-        </div>
-        <div class="g-col-6 g-col-md-4 bg-info">
+        <div class="g-col-6 g-col-md-4 bg-info border border-primary p-4 m-3 animate__animated animate__rotateInDownRight col testimonals">
             <p>"It's too easy to win in Valorant now that I have the supreme Viobot!"</p>
             <p class="text-muted">- Stewie Griffin</p>
         </div>
     </div>
 
     </section>
-    <img src="images/mainLogo.png" alt="Viobot Main Icon">
+    <br>
+    <img src="images/mainLogo.png" alt="Viobot Main Icon" id="viobot">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
@@ -110,5 +103,6 @@
         })
         wow.init();
     </script>
+    <br>
 </body>
 </html>
