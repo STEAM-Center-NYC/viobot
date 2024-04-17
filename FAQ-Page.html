@@ -2,20 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FAQ Page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
   <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      background-color: #818FB4;
-    }
-  </style>
 </head>
-<body>
+<body class="bg-secondary text-primary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">
+            <img src="images/logo.png" alt="Logo and brand name (Viobot)" width="30" height="24" class="d-inline-block align-text-top">
+            Viobot
+        </a>  
+        <a class="navbar-brand text-light btn btn-primary" href="index.html">Home</a>
+        <a class="navbar-brand text-light btn btn-primary" href="products.html">Products</a>
+        <a class="navbar-brand text-light btn btn-primary" href="contacts.html">Contact</a>
+        <a class="navbar-brand text-light btn btn-primary" href="FAQ-Page.html">FAQs</a>
+        <a class="navbar-brand text-light btn btn-primary" href="team.html">Team</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <div class="mx-auto">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 400px;">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form> 
+            </div>
+            <div class="ml-2 mr-4"> 
+                <a href="my-cart-page.html" class="btn btn-primary">
+                    <img src="images/cart.png" alt="Cart" width="40" height="40" class="d-inline-block align-text-top">
+                </a>
+            </div>
+            <a class="navbar-brand text-light fs-6 btn btn-primary" href="sign-in-page.html">Sign In</a>
+        </div>
+    </div>
+</nav>
   <div class="container py-5">
     <h1 class="mb-4">Frequently Asked Questions</h1>
 <hr>
@@ -89,7 +117,28 @@
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
           <div class="accordion-body card-body answer">
-            VioBot Store currently supports English, Arabic, German, Spanish (Spain), Spanish (Latin America), French, Italian, Japanese, Korean, Polish, Portuguese, Russian, Thai, Turkish, Simplified Chinese, and Traditional Chinese. In-game language support varies per game, as provided by the developer; check each game’s store page for language availability.
+            The VioBot Store primarly supports <strong>English</strong>, but also supports the following languages as well: 
+            <ul>
+              <li>Arabic (العربية)</li>
+              <li>Bengali (বাংলা)</li>
+              <li>Bosnian (Bosanski)</li>
+              <li>Chinese (中国人)</li>
+              <li>Croatian (Hrvatski)</li>
+              <li>Dutch (Nederlands)</li>
+              <li>French (Français)</li>
+              <li>German (Deutsch)</li>
+              <li>Hungarian (Magyar)</li>
+              <li>Italian (Italiano)</li>
+              <li>Japanese (日本語)</li>
+              <li>Korean (한국인)</li>
+              <li>Polish (Polski)</li>
+              <li>Portuguese (Português)</li>
+              <li>Romanian (Română)</li>
+              <li>Serbian (Српски/Srpski)</li>
+              <li>Spanish (Español)</li>
+              <li>Turkish (Türkçe)</li>
+            </ul>
+            In-game language support varies per game, as provided by the developer; check each game’s store page for language availability.
           </div>
         </div>
       </div>
