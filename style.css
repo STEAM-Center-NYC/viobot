@@ -6,6 +6,10 @@
     width: 300px;
 }
 
+.copyright {
+    text-align: center;
+    font-size: 9pt;
+}
 .cheats {
     height: 400px;
 }
