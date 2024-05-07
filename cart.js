@@ -1,4 +1,3 @@
-// Waits for the DOM to be fully loaded before executing the code
 document.addEventListener("DOMContentLoaded", function() {
     // Gets all the "Add to Cart" buttons
     var addToCartButtons = document.querySelectorAll('.btn-primary');
@@ -25,8 +24,10 @@ document.addEventListener("DOMContentLoaded", function() {
   
         // Updates the button text to "Added to Cart"
         button.textContent = "Added to Cart";
+        // Remove the "btn-primary" class and add the "btn-success" class
         button.classList.remove('btn-primary');
         button.classList.add('btn-success');
+        // Disable the button to prevent multiple clicks
         button.disabled = true;
       });
     });
@@ -37,5 +38,4 @@ document.addEventListener("DOMContentLoaded", function() {
       // For demonstration purposes, you can log the product details to the console
       console.log("Product added to cart:", product);
     }
-  });
-  
+});
