@@ -1,17 +1,23 @@
 /* Image styling */
-#viobot {
+#viobot,
+#thump {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
 }
 
-#logo {
-    width: 10%;
+.copyright {
+    text-align: center;
+    font-size: 9pt;
 }
 
-body {
-    margin-left: 15px;
+.cheats {
+    height: 400px;
+}
+
+#logo {
+    width: 10%;
 }
 
 .demo:hover {
@@ -21,4 +27,13 @@ body {
 testimonials {
     display: grid;
     grid-template-rows: auto;
+}
+
+.purchase:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.purchase {
+    color: white;
 }
