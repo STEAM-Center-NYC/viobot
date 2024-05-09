@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Create a new cart item element
     var cartItem = document.createElement('div');
     cartItem.classList.add('cart-item');
-    
+
     // Create elements for product name, price, quantity, and remove button
     cartItem.innerHTML = `
       <span class="product-name">${productName}</span>
@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", function () {
       <input type="number" class="quantity" value="1" min="1">
       <button class="remove-btn">Remove</button>
     `;
-    
+
     // Append the cart item to the cart
     document.querySelector('.cart').appendChild(cartItem);
-    
+
     // Update the total price
     updateTotal();
   }
@@ -24,13 +24,13 @@ document.addEventListener("DOMContentLoaded", function () {
   function updateTotal() {
     var total = 0;
     var cartItems = document.querySelectorAll('.cart-item');
-    
+
     cartItems.forEach(function (item) {
       var price = parseFloat(item.querySelector('.product-price').textContent.replace('$', ''));
       var quantity = parseInt(item.querySelector('.quantity').value);
       total += price * quantity;
     });
-    
+
     // Update the total price in the cart
     document.querySelector('.total-price').textContent = '$' + total.toFixed(2);
   }
