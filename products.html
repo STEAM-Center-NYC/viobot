@@ -21,39 +21,42 @@
     href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Oxygen:wght@300;400;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-  <script>
-    var wow = new WOW({
-      boxClass: 'wow',
-      animateClass: 'animate__animated'
-    })
-    wow.init();
-  </script>
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-primary">
+  <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary sticky-top bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand text-light" href="#">
+      <a class="navbar-brand text-light mr-5" href="#">
         <img src="images/logo.png" alt="Logo and brand name (Viobot)" width="30" height="24"
-          class="d-inline-block align-text-top">
+          class="d-inline-block align-text-top ">
         Viobot
       </a>
-      <a class="navbar-brand text-light btn btn-primary" href="index.html">Home</a>
-      <a class="navbar-brand text-light btn btn-primary" href="products.html">Products</a>
-      <a class="navbar-brand text-light btn btn-primary" href="contacts.html">Contact</a>
-      <a class="navbar-brand text-light btn btn-primary" href="FAQ-Page.html">FAQs</a>
-      <a class="navbar-brand text-light btn btn-primary" href="team.html">Team</a>
-
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 1.2rem;">
+          <li class="nav-item">
+            <a class="nav-link text-light mr-3" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light mr-3" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light mr-3" href="contacts.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light mr-3" href="FAQ-Page.html">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light mr-3" href="team.html">Team</a>
+          </li>
+        </ul>
+        
         <div class="mx-auto">
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
-              style="width: 400px;">
+              style="width: 280px;">
             <button class="btn btn-primary" type="submit">Search</button>
           </form>
         </div>
@@ -66,12 +69,10 @@
       </div>
     </div>
   </nav>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
 </body>
-
 <body class="bg-secondary">
   <div class="container">
     <h1 class="text-center my-4">Available Products</h1>
@@ -80,7 +81,7 @@
       <!-- Valorant -->
       <div class="col mt-4">
         <div class="card h-100">
-          <img src="images/valcheats.jpeg" class="card-img-top" alt="Valorant">
+          <img src="images/cheats/valcheats.jpeg" class="card-img-top" alt="Valorant">
           <div class="card-body">
             <h5 class="card-title">Valorant</h5>
             <p class="card-text">Undetected Aimbot and ESP</p>
@@ -96,7 +97,7 @@
       <!-- Fortnite -->
       <div class="col mt-4">
         <div class="card h-100">
-          <img src="images/fortnitecheats.png" class="card-img-top" alt="Fortnite">
+          <img src="images/cheats/fortnitecheats.png" class="card-img-top" alt="Fortnite">
           <div class="card-body">
             <h5 class="card-title">Fortnite</h5>
             <p class="card-text">Private Fortnite cheats with wallhack and aimbot</p>
@@ -111,7 +112,7 @@
       <!-- CSGO -->
       <div class="col mt-4">
         <div class="card h-100">
-          <img src="images/csgocheats.jpeg" class="card-img-top" alt="CSGO">
+          <img src="images/cheats/counterStrike.jpeg" class="card-img-top" alt="CSGO">
           <div class="card-body">
             <h5 class="card-title">Counter-Strike: Global Offensive</h5>
             <p class="card-text">Premium CSGO cheats with aimbot and wallhack</p>
@@ -126,7 +127,7 @@
       <!-- Minecraft -->
       <div class="col mt-4">
         <div class="card h-100">
-          <img src="images/MCCheats.jpeg" class="card-img-top" alt="Minecraft">
+          <img src="images/cheats/minecraft.jpeg" class="card-img-top" alt="Minecraft">
           <div class="card-body">
             <h5 class="card-title">Minecraft</h5>
             <p class="card-text">Premium Minecraft hacked client made just for you</p>
@@ -141,7 +142,7 @@
       <!-- Roblox -->
       <div class="col mt-4">
         <div class="card h-100">
-          <img src="images/robloxcheats.png" class="card-img-top" alt="Roblox">
+          <img src="images/cheats/synapseX.png" class="card-img-top" alt="Roblox">
           <div class="card-body">
             <h5 class="card-title">Roblox</h5>
             <p class="card-text">Roblox exploit with scripts and auto execution</p>
@@ -155,7 +156,7 @@
       </div>
       <div class="col mt-4">
         <div class="card h-100">
-          <img src="images/spoofer.jpeg" class="card-img-top" alt="HWID Spoofer">
+          <img src="images/cheats/spoofer.jpeg" class="card-img-top" alt="HWID Spoofer">
           <div class="card-body">
             <h5 class="card-title">HWID Spoofer</h5>
             <p class="card-text">HWID Spoofer changes your PC's hardware ID to be Undetected</p>
@@ -178,6 +179,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script src="cart.js"></script>
 </body>
 
 </html>
